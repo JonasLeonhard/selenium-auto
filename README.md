@@ -11,6 +11,7 @@ Pass input with argparse: fx:
 cd selenium-auto
 python3 auto.py -u 'https://google.com' -nm 'q' -i 0.5 -wri 'args ' -i_m 10 
 ```
+![Startscreen](../master/selenium-auto/gitreadme/test.gif)
 
 use -h for help
 
