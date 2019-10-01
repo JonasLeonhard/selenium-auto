@@ -15,8 +15,10 @@ python3 auto.py -u 'https://google.com' -nm 'q' -i 0.5 -wri 'args ' -i_m 10
 
 use -h for help
 
-# Requirements: 
+# Requirements:
+```
 Chrome Version 77.0.3865.90 (Official Build) (64-bit) or later
 python3
 python3 get-pip.py
 pip3 install selenium
+```
