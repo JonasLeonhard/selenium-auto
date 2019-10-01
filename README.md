@@ -7,9 +7,9 @@ Automate interval, maxInterval, WebsiteUrl, element
 Modes : Write / Click
   
 Pass input with argparse: fx:
-'''
+```
 python3 main.py -u 'https://google.com' -nm 'q' -i 0.5 -wri 'args ' -i_m 10 
-'''
+```
 
 use -h for help
 
