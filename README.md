@@ -22,4 +22,5 @@ Chrome Version 77.0.3865.90 (Official Build) (64-bit) or later
 python3
 python3 get-pip.py
 pip3 install selenium
+pip3 install keyboard
 ```
