@@ -18,7 +18,9 @@ class Args_Builder:
                     metavar='S', help="Interval in Seconds")
         parser.add_argument('-i_m', '--maxRuntime', type=float,
                     metavar='S_max', help="Interval maxRuntime in Seconds")
-
+        parser.add_argument("-noauto", '--noautostart', action="store_true", help="Dont Autostart Script in Browser, start script upon pressing 'alt-x'")
+        parser.add_argument("-deb", '--debug', action="store_true", help="Enables Debug logging in terminal when clicking'")
+    
         group = parser.add_mutually_exclusive_group(required=True)
         group.add_argument('-cl', '--el_class', type=str,
                    metavar='C', help="element class name in html")

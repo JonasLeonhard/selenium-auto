@@ -35,12 +35,12 @@ class Web_Builder:
                 return  self.driver.find_element_by_name(el_name)
                 
             except:
-                print(f'elementClass exection, class {el_class} not found in url')
+                print(f'elementClass exection, class {el_name} not found in url')
     
     def getElement_byXpath(self, el_xpath):
             try: 
                 return   self.driver.find_element_by_xpath(el_xpath)
                 
             except:
-                print(f'elementClass exection, class {el_class} not found in url')
+                print(f'elementXpath exection, xpath {el_xpath} not found in url')
        
